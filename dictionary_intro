@@ -19,3 +19,7 @@ empty_dictionary = {}
 #add an element to the empty empty_dictionary
 empty_dictionary["object"] = "instance of a class"
 print(empty_dictionary)
+
+#completely wipe out an existing dictionary
+programming_dictionary = {}
+print(programming_dictionary)
