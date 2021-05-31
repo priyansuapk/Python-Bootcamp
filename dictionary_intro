@@ -23,3 +23,7 @@ print(empty_dictionary)
 #completely wipe out an existing dictionary
 programming_dictionary = {}
 print(programming_dictionary)
+
+#edit an item in your dictioanry
+programming_dictionary["Bug"] = "A moth in your computer"
+print(programming_dictionary)
