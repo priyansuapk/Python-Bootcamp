@@ -1,0 +1,24 @@
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+boy_name=name1.lower()
+girl_name=name2.lower()
+
+true_count=boy_name.count("t")+boy_name.count("r")+boy_name.count("u")+boy_name.count("e")+girl_name.count("t")+girl_name.count("r")+girl_name.count("u")+girl_name.count("e")
+love_count=girl_name.count("l")+girl_name.count("o")+girl_name.count("v")+girl_name.count("e")+boy_name.count("l")+boy_name.count("o")+boy_name.count("v")+boy_name.count("e")
+
+digits=len(str(love_count))
+true_count=true_count*(10**digits)
+true_count +=love_count
+if true_count<10 or true_count>90:
+  print(f"Your score is {true_count}, you go together like coke and mentos")
+elif true_count>40 and true_count<50:
+  print(f"your score is {true_count}, you are alright together")
+else:
+  print(f"your score is {true_count}")  
+
+
